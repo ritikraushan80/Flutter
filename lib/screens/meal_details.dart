@@ -75,7 +75,7 @@ class MealDetailsScreen extends ConsumerWidget {
             for (final ingredient in meal.ingredients)
               Text(
                 ingredient,
-                style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                style: Theme.of(context).textTheme.titleMedium!.copyWith(
                       color: Theme.of(context).colorScheme.onBackground,
                     ),
               ),
@@ -96,7 +96,7 @@ class MealDetailsScreen extends ConsumerWidget {
                 child: Text(
                   steps,
                   textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                  style: Theme.of(context).textTheme.titleMedium!.copyWith(
                         color: Theme.of(context).colorScheme.onBackground,
                       ),
                 ),
